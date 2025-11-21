@@ -1,0 +1,29 @@
+.map-h1 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.plan-btn-box {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+    padding: 15px 30px;
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    background-color: #F37518;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.plan-btn-box:hover{
+    background-color: white;
+    color: #F37518;
+    text-decoration: underline;
+
+
+}

@@ -1,0 +1,58 @@
+.space-banner{
+    display: flex;
+    justify-content: space-between;
+    
+
+    border: 2px solid #A0522D;
+    padding: 8px;
+
+    background-color: #A0522D;
+
+
+    >.space-btn{
+        padding: 4px;
+        margin-left: 15px;
+
+        text-align: center;
+        font-weight: 700;
+        font-size: large;
+
+        color: black;
+        background-color: #F5F5DC;
+    }
+
+    >.space-search{
+       
+        display: flex;
+        background-color: #f5f5dc;
+        padding: 8px;
+        font-size: large;
+        font-weight: 600;
+        border: 0px;
+    }
+
+    >.Weather-info{
+        padding: 4px;
+        margin-right: 15px;
+
+        text-align: center;
+        font-weight: 700;
+        font-size: large;
+
+        color: black;
+        background-color: #F5F5DC;
+    }
+
+    >.Weather-info:hover{
+        text-decoration: underline;
+        color: #F37518;
+        cursor: pointer;
+    }
+
+    >.space-btn:hover{
+        text-decoration: underline;
+        color: #F37518;
+        cursor: pointer;
+    }
+
+}

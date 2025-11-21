@@ -1,0 +1,290 @@
+.reg-page-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.reg-pag {
+    width: 80%;                /* << make page smaller here */
+    max-width: 900px;          /* prevents becoming too large */
+    min-width: 500px;          /* prevents too small on mobile */
+
+
+}
+
+.reg-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 160px;
+    margin-bottom: 15px;
+
+    color: black;
+
+    >.reg-intruction {
+        font-weight: 500;
+    }
+
+
+}
+
+.reg-part-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    gap: 5px;
+
+    font-size: larger;
+
+    >input {
+        margin-top: 4px;
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+
+        border-radius: 8px;
+        border: none;
+
+    }
+
+}
+.title-dropdown {
+    min-height: 30px;
+    background-color: #D9D9D9;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: medium;
+}
+
+
+.reg-part-2 {
+    display: flex;
+    gap: 108px;
+    margin-top: 5px;
+    font-size: larger;
+
+}
+
+.reg-part-2-input {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 4px;
+
+    >input {
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+
+        border-radius: 8px;
+        border: none;
+
+    }
+
+}
+
+.reg-part-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+
+    font-size: larger;
+
+}
+
+.reg-part-3-input {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+
+    >input {
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+
+        border-radius: 8px;
+        border: none;
+    }
+
+    >button {
+        border-radius: 25px;
+        background-color: #F37518;
+        color: #D9D9D9;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+.reg-part-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 9px;
+
+    font-size: larger;
+
+}
+
+.reg-part-4-input {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: 4px;
+
+    >input {
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+
+        border-radius: 8px;
+        border: none;
+    }
+}
+
+.reg-part-5 {
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    margin-top: 9px;
+
+    font-size: larger;
+
+}
+
+.reg-part-5-input {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: 4px;
+
+    >input {
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+
+        border-radius: 8px;
+        border: none;
+    }
+}
+
+.reg-part-6 {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 9px;
+
+    font-size: larger;
+
+}
+
+/* .reg-part-6-input{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: 4px;
+
+    >input{
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+
+        border-radius: 8px;
+        border: none;
+    }
+    >button{
+        background-color: #F37518;
+        color: #D9D9D9;
+        border: none;
+        border-radius: 8px;
+
+        font-size: large;
+        font-weight: 600;
+    }
+} */
+
+
+.reg-part-6-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    >input {
+        min-width: 30px;
+        min-height: 30px;
+        background-color: #D9D9D9;
+        border: 1px solid;
+        padding: 5px 10px;
+        border-radius: 8px;
+        border: none;
+    }
+}
+    /* Only add space between input 1 and input 2 */
+    .reg-part-6-input>input:first-child {
+        margin-right: 90px;
+        /* space between the two inputs */
+    }
+
+    /* No space before the button */
+    .reg-part-6-input>button {
+        margin-left: 20px;
+        /* button touches second input */
+        background-color: #F37518;
+        color: #D9D9D9;
+        border: none;
+        border-radius: 8px;
+        font-size: large;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+
+    .reg-btn {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+        background-color: #F37518;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        text-decoration: none;
+
+        font-size: xx-large;
+        font-weight: 800;
+        color: white;
+    }
+
+    .reg-btn:hover {
+        color: #F37518;
+        background-color: aliceblue;
+        font-size: xx-large;
+        cursor: pointer;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+
+    h5 {
+        color: #A0522D;
+    }
