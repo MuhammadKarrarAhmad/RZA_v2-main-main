@@ -4,7 +4,7 @@ export default function Space(){
     return(
         
         <div className="space-banner">
-            <button className="space-btn">Plan your Day</button>
+            <a href="/PlanYourDay" className="space-btn">Plan your Day</a>
             <div className="space-search">
                 <input type ="text"  placeholder="Search..."/>
             </div>

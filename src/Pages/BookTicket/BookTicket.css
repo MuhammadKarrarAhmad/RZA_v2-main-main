@@ -30,9 +30,13 @@
 
         font-size: xxx-large;
 
+
+
     }
 }
-
+.ticket-h1::-webkit-calendar-picker-indicator {
+        background-color: black;
+}
 .ticket-img {
     display: flex;
     justify-content: right;
@@ -50,7 +54,7 @@
 
 .ticket-info-box-1 {
     display: flex;
-   
+
     margin-left: 200px;
     margin-bottom: 30px;
     margin-right: 280px;
@@ -62,19 +66,20 @@
 .ticket-info-1 {
     display: flex;
     flex-direction: column;
-    
+
     gap: 10px;
-    margin-left:30px ;
+    margin-left: 30px;
     min-width: 89vh;
 
     font-size: larger;
-    
-    
-    
-    >.box1-h1{
+
+
+
+    >.box1-h1 {
         font-size: xx-large;
     }
-    >.box1-h2{
+
+    >.box1-h2 {
         margin-left: 30px;
         font-size: larger;
     }
@@ -115,19 +120,20 @@
 .ticket-info-2 {
     display: flex;
     flex-direction: column;
-   
+
     gap: 10px;
-    margin-left:30px ;
+    margin-left: 30px;
     min-width: 90vh;
 
     font-size: larger;
-    
-    
-    
-    >.box2-h1{
+
+
+
+    >.box2-h1 {
         font-size: xx-large;
     }
-    >.box2-h2{
+
+    >.box2-h2 {
         margin-left: 30px;
         font-size: larger;
     }

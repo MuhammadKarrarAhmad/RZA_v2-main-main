@@ -26,7 +26,8 @@ export default function Home() {
                 <h1 className="banner-heading"> Discover the wonder wildlife<br/>
                     Riget Zoo Adventure
                 </h1>
-                <button className="banner-btn">Book Now</button>
+                {/* <button className="banner-btn">Book Now</button> */}
+                <a href= "/BookTicket" className="banner-btn">Book Now</a>
             </HeroBanner>
             <Space/>
             <div className="h1-heading">Explore Your Favorite Animals</div>

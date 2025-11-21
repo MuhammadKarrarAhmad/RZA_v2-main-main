@@ -29,7 +29,7 @@ export default function BookTicket() {
                 <div className="ticket-info-1">
                     <p className="box1-h1"><strong>Day Ticket - Truck ride is included</strong></p>
                     <p className="box1-h2">Adult 25.99, child 14.99</p>
-                    <a href="/Login">Book Now</a> 
+                    <a href="/">Book Now</a> 
                 </div>
             </div>
             <div className="ticket-info-box-2">
@@ -37,7 +37,7 @@ export default function BookTicket() {
                 <div className="ticket-info-2">
                     <p className="box2-h1"><strong>One Day Ticket - Truck ride is not included</strong></p>
                     <p className="box2-h2">Adult 20.99, child 10.99</p>
-                    <a href="/Login">Book Now</a>                
+                    <a href="/">Book Now</a>                
                 </div>
             </div>
             <FooterSection />
