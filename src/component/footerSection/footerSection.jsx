@@ -13,7 +13,7 @@ export default function footerSection() {
                         <a href="/PlanYourDay">Plan Your Day </a>
                         <a href="/Educational Purpose">Educational Purpose</a>
                         <a href="/BookTicket">Book a Ticket</a>
-                        <a href="/reserve-room">Reserve a Room</a>
+                        <a href="/BookHotel">Reserve a Room</a>
                         <a href="/Privacy Policy">Privacy Policy</a>
                     </nav>
                 </div>

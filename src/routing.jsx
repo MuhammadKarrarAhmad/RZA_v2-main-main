@@ -3,6 +3,8 @@ import Home from "./Pages/Home/Home"
 import Register from "./Pages/Register/Register"
 import PlanYourDay from "./Pages/PlanYourDay/PlanYourDay"
 import BookTicket from "./Pages/BookTicket/BookTicket"
+import BookHotel from "./Pages/BookHotel/BookHotel"
+import SelectRoom from "./Pages/SelectRoom/SelectRoom"
 
 
 export default function Routing(){
@@ -12,8 +14,9 @@ export default function Routing(){
             <Route path="/BookTicket" element ={<BookTicket/>}/>
             <Route path ='/Register' element = {<Register/>}/>
             <Route path ="/PlanYourDay" element = {<PlanYourDay/>}/>
-            
-
+            <Route path ="/BookHotel" element = {<BookHotel/>}/>
+            <Route path ="/SelectRoom" element = {<SelectRoom/>}/>
+        
         </Routes>
     )
 }

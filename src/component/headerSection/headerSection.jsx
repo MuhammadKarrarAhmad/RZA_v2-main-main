@@ -25,7 +25,7 @@ export default function HeaderSection() {
                         <button className="dropbtn">Book and Reserve ⌄</button>
                         <div className="dropdown-content">
                             <a href="/BookTicket">Book a Ticket</a>
-                            <a href="/reserve-room">Reserve a Room</a>
+                            <a href="/BookHotel">Reserve a Room</a>
                             <a href="/book-event">Book an Event</a>
                         </div>
 

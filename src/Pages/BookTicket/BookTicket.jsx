@@ -1,19 +1,25 @@
 import "./BookTicket.css"
+import { useState } from "react"
 import HeaderSection from "../../component/headerSection/headerSection"
 import FooterSection from "../../component/FooterSection/footerSection"
 import birdImage from "../../assets/macaw-parrot-isolated-on-transparent-background-file-cut-out-ai-generated-png.png"
 import infoImag1 from "../../assets/Sibirischer_tiger_de_edit02.jpg"
-import infoImag2 from"../../assets/gettyimages-1219403220-1024x1024.jpg"
+import infoImag2 from "../../assets/gettyimages-1219403220-1024x1024.jpg"
 import DayTicket from "../../component/DayTicket/DayTicket"
+import DayTicket2 from "../../component/DayTicket2/DayTicket2"
 
 
 export default function BookTicket() {
 
-    // const [showPopup, setShowPopup] = useState(false)
+    const [showPopup, setShowPopup] = useState(false)
+    const [showPopup2, setShowPopup2] = useState(false)
 
     return (
         <>
             <HeaderSection />
+
+            {/* <DayTicket /> */}
+            {/* <DayTicket2/> */}
             <div className="book-h1">
                 <h1>Secure Your Spot At Riget Zoo Adventure</h1>
             </div>
@@ -32,9 +38,10 @@ export default function BookTicket() {
                 <div className="ticket-info-1">
                     <p className="box1-h1"><strong>Day Ticket - Truck ride is included</strong></p>
                     <p className="box1-h2">Adult 25.99, child 14.99</p>
-                    <a href="/DayTicket">Book Now</a> 
-                    {/* <a onClick ={()=> setShowPopup(true)}> Book Now</a>
-                                    {showPopup &&<DayTicket/>} */}
+                    {/* <a href="/DayTicket">Book Now</a>  */}
+                    <button onClick={() => {setShowPopup2(true), setShowPopup(false)}}> Book Now</button>
+                    {showPopup2 && <DayTicket2 />}
+
                 </div>
             </div>
             <div className="ticket-info-box-2">
@@ -42,7 +49,8 @@ export default function BookTicket() {
                 <div className="ticket-info-2">
                     <p className="box2-h1"><strong>One Day Ticket - Truck ride is not included</strong></p>
                     <p className="box2-h2">Adult 20.99, child 10.99</p>
-                    <a href="/">Book Now</a>                
+                    <button onClick={() => {setShowPopup(true), setShowPopup2(false)}}> Book Now</button>
+                    {showPopup && <DayTicket />}
                 </div>
             </div>
             <FooterSection />
